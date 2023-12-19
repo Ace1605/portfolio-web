@@ -2,6 +2,7 @@ import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 import thumbHangout from '../public/images/thehangout.jpeg'
+import thumbHangMerchant from '../public/images/myhmerchant.jpeg'
 import thumbCB from '../public/images/cbport.jpeg'
 import thumbPr from '../public/images/prport.jpeg'
 import thumbSmade from '../public/images/smadeandsmight.jpeg'
@@ -18,7 +19,7 @@ const Works = () => {
           <Section>
             <WorkGridItem
               href="https://myhangout.co"
-              title="MyHangout"
+              title="MyHangout Customer Web"
               thumbnail={thumbHangout}
             >
               A platform that helps you find what you need in your location. It
@@ -39,6 +40,17 @@ const Works = () => {
               empowers users to effortlessly track and categorize expenses, set
               and monitor budgets, and generate insightful reports to gain a
               comprehensive understanding of their financial landscape.
+            </WorkGridItem>
+          </Section>
+          <Section>
+            <WorkGridItem
+              href="https://hangout-merchant-vercel-test-1gw3j3iby-ace1605.vercel.app/"
+              title="MyHangout Merchant Dashboard"
+              thumbnail={thumbHangMerchant}
+            >
+              A platform is the merchant dashboard that enables business owners
+              to upload their businesses to the database which is in-turn
+              outputted on the customer web for users(customers)
             </WorkGridItem>
           </Section>
         </SimpleGrid>

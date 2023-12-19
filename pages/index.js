@@ -61,7 +61,7 @@ export default function Home() {
             Work
           </Heading>
           <Paragraph>
-            Ace is an accomplished frontend developer currently working at
+            Hi, I am accomplished frontend developer currently working at
             Chequebase and having previously worked at SmadeandSmight. With over
             two years of experience, Ace excels in crafting digital solutions
             that tackle real-world challenges. Specializing in modern frontend
