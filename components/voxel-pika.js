@@ -31,7 +31,6 @@ const VoxelPika = () => {
         if(container && renderer) {
             const scW = container.clientWidth
             const scH = container.clientHeight
-
             renderer.setSize(scW, scH)
         }
     }, [])
