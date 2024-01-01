@@ -17,7 +17,7 @@ const Contact = () => {
         <Heading as="h3" fontSize={20} mb={4}>
           Contact me
         </Heading>
-        <SimpleGrid columns={[2, 1, 1]} gap={6}>
+        <SimpleGrid columns={[1, 1]} gap={6}>
           <Section>
             <Box my={3}>
               <Paragraph className="contact-p">
