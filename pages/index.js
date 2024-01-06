@@ -65,7 +65,7 @@ export default function Home() {
             Chequebase and having previously worked at SmadeandSmight. With over
             two years of experience, Ace excels in crafting digital solutions
             that tackle real-world challenges. Specializing in modern frontend
-            technologies, including React, Redux, and REST, Ace has played a
+            technologies, including React, Next.js, Redux, and REST, Ace has played a
             pivotal role in projects such as TheHangout, actively contributing
             to the development of high-quality and user-centric digital
             services. Notably, Ace has leveraged Next.js, React, and Typescript
