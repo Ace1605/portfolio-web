@@ -69,7 +69,7 @@ export default function Home() {
             role in projects such as TheHangout, actively contributing to the
             development of high-quality and user-centric digital services.
             Notably, Ace has leveraged Next.js, React, and Typescript in the
-            finance management platform{' '}
+            Spend Management Platform{' '}
             <Link href="https://chequebase.io" target="_blank">
               Chequebase.io
             </Link>
