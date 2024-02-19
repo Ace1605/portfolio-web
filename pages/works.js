@@ -42,17 +42,6 @@ const Works = () => {
               comprehensive understanding of their financial landscape.
             </WorkGridItem>
           </Section>
-          <Section>
-            <WorkGridItem
-              href="https://hangout-merchant-vercel-test-1gw3j3iby-ace1605.vercel.app/"
-              title="MyHangout Merchant Dashboard"
-              thumbnail={thumbHangMerchant}
-            >
-              A platform is the merchant dashboard that enables business owners
-              to upload their businesses to the database which is in-turn
-              outputted on the customer web for users(customers)
-            </WorkGridItem>
-          </Section>
         </SimpleGrid>
         <Section>
           <Divider my={6} />
