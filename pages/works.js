@@ -17,6 +17,19 @@ const Works = () => {
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
             <WorkGridItem
+              href="https://chequebase.io"
+              title="Chequebase.io"
+              thumbnail={thumbCB}
+            >
+              Chequebase.io, an innovative expense and spend management platform
+              designed for businesses. This user-friendly web application
+              empowers users to effortlessly track and categorize expenses, set
+              and monitor budgets, and generate insightful reports to gain a
+              comprehensive understanding of their financial landscape.
+            </WorkGridItem>
+          </Section>
+          <Section>
+            <WorkGridItem
               href="https://myhangout.co"
               title="MyHangout Customer Web"
               thumbnail={thumbHangout}
@@ -28,17 +41,18 @@ const Works = () => {
               under pressure and maintain high-quality standards.
             </WorkGridItem>
           </Section>
-          <Section>
+          <Section delay={0.3}>
             <WorkGridItem
-              href="https://chequebase.io"
-              title="Chequebase.io"
-              thumbnail={thumbCB}
+              href="https://playrivalz.com/"
+              title="Playrivalz"
+              thumbnail={thumbPr}
             >
-              Chequebase.io, an innovative expense and spend management platform
-              designed for businesses. This user-friendly web application
-              empowers users to effortlessly track and categorize expenses, set
-              and monitor budgets, and generate insightful reports to gain a
-              comprehensive understanding of their financial landscape.
+              Playrivalz is a gaming platform. It is a platform built on the
+              belief that gaming football matches mean more! No clutter and no
+              mess, we built this platform to allow friends and online
+              communities to engage in high stakes online or offline gaming
+              football leagues and tournaments where more than just pride can be
+              on the line
             </WorkGridItem>
           </Section>
         </SimpleGrid>
@@ -51,11 +65,12 @@ const Works = () => {
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section delay={0.3}>
             <WorkGridItem
-              href="https://playrivalz.com/"
-              title="Playrivalz"
+              href="https://fundle.africa/"
+              title="Fundle"
               thumbnail={thumbPr}
             >
-              Playrivalz is a gaming platform
+              Fundle is a platform that empowers transformation across diverse
+              industry sectors
             </WorkGridItem>
           </Section>
           <Section delay={0.3}>
