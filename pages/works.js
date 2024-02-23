@@ -4,6 +4,7 @@ import { WorkGridItem } from '../components/grid-item'
 import thumbHangout from '../public/images/thehangout.jpeg'
 import thumbCB from '../public/images/cbport.jpeg'
 import thumbPr from '../public/images/prport.jpeg'
+import thumbFnd from '../public/images/fundle.jpeg'
 import thumbSmade from '../public/images/smadeandsmight.jpeg'
 import Layout from '../components/layouts/article'
 
@@ -28,19 +29,6 @@ const Works = () => {
               comprehensive understanding of their financial landscape.
             </WorkGridItem>
           </Section>
-          <Section>
-            <WorkGridItem
-              href="https://myhangout.co"
-              title="MyHangout Customer Web"
-              thumbnail={thumbHangout}
-            >
-              A platform that helps you find what you need in your location. It
-              is a lifestyle-based web application called myhangout; for
-              trending events, clubs, cinemas, restaurants from various
-              merchants and customers. This experience honed my ability to work
-              under pressure and maintain high-quality standards.
-            </WorkGridItem>
-          </Section>
           <Section delay={0.3}>
             <WorkGridItem
               href="https://playrivalz.com/"
@@ -55,6 +43,19 @@ const Works = () => {
               on the line
             </WorkGridItem>
           </Section>
+          <Section>
+            <WorkGridItem
+              href="https://myhangout.co"
+              title="MyHangout Customer Web"
+              thumbnail={thumbHangout}
+            >
+              A platform that helps you find what you need in your location. It
+              is a lifestyle-based web application called myhangout; for
+              trending events, clubs, cinemas, restaurants from various
+              merchants and customers. This experience honed my ability to work
+              under pressure and maintain high-quality standards.
+            </WorkGridItem>
+          </Section>
         </SimpleGrid>
         <Section>
           <Divider my={6} />
@@ -65,21 +66,21 @@ const Works = () => {
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section delay={0.3}>
             <WorkGridItem
-              href="https://fundle.africa/"
-              title="Fundle"
-              thumbnail={thumbPr}
-            >
-              Fundle is a platform that empowers transformation across diverse
-              industry sectors
-            </WorkGridItem>
-          </Section>
-          <Section delay={0.3}>
-            <WorkGridItem
               href="http://smadeandsmight.com"
               title="SmadeandSmight"
               thumbnail={thumbSmade}
             >
               SmadeandSmight is a company that bring business ideas to reality
+            </WorkGridItem>
+          </Section>
+          <Section delay={0.3}>
+            <WorkGridItem
+              href="https://fundle.africa/"
+              title="Fundle"
+              thumbnail={thumbFnd}
+            >
+              Fundle is a platform that empowers transformation across diverse
+              industry sectors
             </WorkGridItem>
           </Section>
         </SimpleGrid>
